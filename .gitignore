@@ -1,0 +1,27 @@
+# CMake build directories
+/build/
+/build-*/
+/cmake-build-*/
+
+# Local tools and IDE settings
+/.agents/
+/.aws/
+/.codex/
+/.venv/
+/.vscode/
+/.idea/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Compiled artifacts created outside the build directory
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+/src/main
